@@ -1,0 +1,29 @@
+.footer {
+    background-color: #36454F;
+    color: white; 
+    position:relative 
+  }
+  
+  .footer h5 {
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info p {
+    margin: 0.5rem 0; 
+  }
+  
+  .social-icons {
+    margin-top: 1rem; 
+  }
+  
+
+  .social-icons a {
+    margin: 0 10px;
+    color: white; 
+    transition: color 0.3s; 
+  }
+  
+  .social-icons a:hover {
+    color: #FFC107; 
+  }
+  

@@ -1,0 +1,14 @@
+.custom-collapse
+{
+    display: flex;
+    justify-content: center;
+}
+.navbar {
+    background-color: #2E2E2E; 
+    color: white; 
+  }
+.contact{
+    margin-left: 45vw;
+    margin-bottom: 0.21vh;
+}
+  

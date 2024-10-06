@@ -1,0 +1,30 @@
+.card-rag
+{
+    margin-top: 15vh;
+}
+.card-body_rag
+{
+margin-left: 33vh;
+width: 70%;
+padding: 20px;
+text-align: center;
+background-color: #f9f9f9;
+margin-bottom: 30px;
+border: 2px solid #b0b0b0;
+border-radius: 7px;
+}
+
+  
+.Book_icon
+{
+    margin-left: 47vw;
+    margin-bottom: 5vh;
+    color: #6495ED;
+}
+.dark-mode .card-body_rag{
+    background-color: #333333;
+    border-color: #888888;
+  }
+  .dark-mode h1, .dark-mode .card-bofy, .dark-mode p {
+    color: #ffffff;
+  }
