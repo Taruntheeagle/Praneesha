@@ -55,7 +55,7 @@ export default function Services() {
         {isVisible('devops-sre') && (
           <div id="devops-sre" className="container_services">
             <h1>DevOps and SRE Services</h1>
-            <img src={`${process.env.PUBLIC_URL}/Key/Devops1.png`} alt="none" style={{ width: '30rem', marginLeft: '9vw', marginBottom: '2vh', marginTop: '2vh' }} />
+            <img src={`${process.env.PUBLIC_URL}/Key/Devops.jpg`} alt="none" style={{ width: '30rem', marginLeft: '9vw', marginBottom: '2vh', marginTop: '2vh' }} />
             <p>Application deployment and development is a continuous process that requires many iterations to handle. DevOps CI/CD pipelines will help achieve this fault-free. Our expertise will further make this process efficient to meet businesses' application development needs for quick delivery of the application to the end user. On the other hand, deployed applications need to meet SLA (service level objectives) in short to give great user experience.</p>
           </div>
         )}

@@ -56,7 +56,7 @@ export default function CardItems() {
       </div>
       <div className="container_card_item">
         <div className="card_item" style={{ width: "18rem" }} onClick={() => handleCardClick("devops-sre")}>
-          <img src={`${process.env.PUBLIC_URL}/Services/devops1.png`} className="card-img-top" alt="None" style={{ width: '285px', height: '200px' }} />
+          <img src={`${process.env.PUBLIC_URL}/Services/Devops1.png`} className="card-img-top" alt="None" style={{ width: '285px', height: '200px' }} />
           <div className="card-body">
             <h5 className="card-title" ><b>DevOps</b></h5>
             <p className="card-text">
