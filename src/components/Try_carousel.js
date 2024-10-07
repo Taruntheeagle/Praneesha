@@ -4,7 +4,7 @@ import './Carousel.css';
 export default function Carousel() {
   useEffect(() => {
     const carousel = new window.bootstrap.Carousel(document.getElementById('carouselExample'), {
-      interval: 1000,
+      interval: 1300,
       wrap: true
     });
     

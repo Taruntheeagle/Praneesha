@@ -1,30 +1,76 @@
-.card-rag
-{
-    margin-top: 15vh;
-}
-.card-body_rag
-{
-margin-left: 33vh;
-width: 70%;
-padding: 20px;
-text-align: center;
-background-color: #f9f9f9;
-margin-bottom: 30px;
-border: 2px solid #b0b0b0;
-border-radius: 7px;
+.card-rag {
+  margin-top: 15vh;
 }
 
-  
-.Book_icon
-{
-    margin-left: 47vw;
-    margin-bottom: 5vh;
-    color: #6495ED;
+.card-body_rag {
+  margin-left: 33vh;
+  width: 70%;
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  margin-bottom: 30px;
+  border: 2px solid #b0b0b0;
+  border-radius: 7px;
 }
-.dark-mode .card-body_rag{
-    background-color: #333333;
-    border-color: #888888;
+
+/* Image responsiveness */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Specific adjustments for images inside the card */
+.card-body_rag img {
+  display: block;
+  margin: 0 auto; /* Center the images */
+}
+
+/* Media query for small devices */
+@media (max-width: 768px) {
+  .card-body_rag {
+      margin-left: 5vh;
+      width: 90%;
   }
-  .dark-mode h1, .dark-mode .card-bofy, .dark-mode p {
-    color: #ffffff;
+  .card-body_rag img {
+      width: 90%;
   }
+}
+
+@media (max-width: 480px) {
+  .card-body_rag {
+      margin-left: 2vh;
+      width: 95%;
+  }
+  .card-body_rag img {
+      width: 95%;
+  }
+}
+
+.Book_icon {
+  margin-left: 47vw;
+  margin-bottom: 5vh;
+  color: #6495ED;
+}
+
+/* Media query for adjusting icon position */
+@media (max-width: 768px) {
+  .Book_icon {
+      margin-left: 40vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .Book_icon {
+      margin-left: 35vw;
+  }
+}
+
+/* Dark mode styles */
+.dark-mode .card-body_rag {
+  background-color: #333333;
+  border-color: #888888;
+}
+
+.dark-mode h1, .dark-mode .card-body_rag, .dark-mode p {
+  color: #ffffff;
+}
